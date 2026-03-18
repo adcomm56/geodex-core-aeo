@@ -3,8 +3,11 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
+    "dev": "astro dev",
+    "start": "node ./dist/server/entry.mjs",
     "build": "astro build",
-    "start": "node ./dist/server/entry.mjs"
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
     "astro": "^5.0.0",
